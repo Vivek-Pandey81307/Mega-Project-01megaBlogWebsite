@@ -5,7 +5,7 @@ import { login } from "../store/authSlice";
 import { Button, Input, Logo } from "./index";
 import { useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
-function Singup() {
+function Signup() {
   const navigate = useNavigate();
   const [error, setError] = useState("");
   const dispatch = useDispatch();
@@ -85,4 +85,4 @@ function Singup() {
   );
 }
 
-export default Singup;
+export default Signup;
