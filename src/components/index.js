@@ -12,7 +12,7 @@ import Login from "./Login";
 import PostForm from './post-form/PostForm'
 import PostCard from './PostCard'
 import AuthLayout from './AuthLayout'
-import Input from "./input";
+import Input from "./Input";
 export {Header,Footer,Container,Logo,LogoutBtn,
     Button,Input,RTE,Select,Signup, Login,
     PostForm,
